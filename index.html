@@ -132,6 +132,25 @@
      </div>
     </section>
 <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+<button onclick="topFunction()" id="scroll-btn" title="Back to Top">&uarr;</button>
+<script>
+// ketika pengunjung scroll kebawah 20px dari atas dokumen, maka tampilkan tombol scroll-btn
+window.onscroll = function() {scrollFunction()};
+ 
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scroll-btn").style.display = "block";
+  } else {
+    document.getElementById("scroll-btn").style.display = "none";
+  }
+}
+ 
+// ketika tombol tersebut di klik, maka lakukan scroll keatas laman
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 <!--footer start from here-->
 <footer>
   <div class="container">
