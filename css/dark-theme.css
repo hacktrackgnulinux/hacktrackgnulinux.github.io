@@ -1,0 +1,187 @@
+/*
+    Template Name    : Koshi - Software Application Landing Page Template
+    Author           : AvailableCoder
+    Version          : 1.0
+    Created          : 2021
+    File Description : Dark-Theme css file of the template
+*/
+
+body {
+    background-color: #2d3436;
+}
+.main-text p {
+    color: #ddd;
+}
+.main-btn::after,
+.main-btn::before {
+    background-color: #2d3436;
+}
+.main-btn:hover {
+    background-color: #2d3436;
+}
+/* Header */
+header {
+    background-color: #000;
+}
+header nav ul li a {
+    color: #eee;
+}
+button.menu-btn span {
+    background-color: #fff;
+}
+div.light-dark::before,
+div.light-dark::after {
+    color: #fff;
+}
+@media (max-width: 991px) {
+    header nav ul {
+        background-color: #000;
+    }
+}
+/* Home */
+.home .container .text h1 {
+    color: #fff;
+}
+.home .container .text p {
+    color: #eee;
+}
+/* Services */
+.services .field > div.text .text-field {
+    background-color: #222;
+    color: #ededed;
+}
+@media (min-width: 992px) {
+    .services .field > div.text_left .text-field::after {
+        border-left-color: #222;
+    }
+    .services .field > div.text_right .text-field::before {
+        border-right-color: #222;
+    }
+}
+@media (max-width: 991px) {
+    .services .field > div.text_left .text-field::after {
+        border-top-color: #222;
+    }
+    .services .field > div.text_right .text-field::before {
+        border-bottom-color: #222;
+    }
+}
+/* Features */
+.features .features-grid > div.feat {
+    background-color: #121212;
+    color: #fefefe;
+}
+.features .features-grid > div.feat  p {
+    color: #eee;
+}
+/* Howitwork */
+.howit .field .items .item span {
+    color: #eee;
+    border: 2px solid #2d3436;
+}
+.howit .field .items .item h3 {
+    border-bottom: 1px solid #ccc;
+    color: #fcfcfc;
+}
+.howit .field .items .item p {
+    color: #fafafa;
+}
+/* Pricing */
+.pricing .field > div.plan {
+    color: #fcfcfc;
+    background-color: #363636;
+}
+.pricing .field > div.plan .plan-head h3 {
+    color: #eee;
+}
+.pricing .field > div.plan ul li.not-allowed {
+    color: #999;
+}
+.pricing .price-type span {
+    color: #dedede;
+}
+.price-type .inactive {
+    color: #888 !important;
+}
+.pricing .price-type input[type="checkbox"] {
+    background-color: #666;
+}
+.pricing .price-type input[type="checkbox"]::before {
+    background-color: #333;
+}
+/* Team */
+.team .team-box > div.member {
+    box-shadow: inset 0px 0px 10px 1px #ccc;
+}
+.team .team-box > div.member .text h3 {
+    color: #eee;
+}
+.team .team-box > div.member .text p {
+    color: #aaa;
+}
+/* Testimonials */
+.testimonials .clients-slider .box .review {
+    border: 2px solid #777;
+}
+.testimonials .tns-controls button {
+    background-color: #333;
+    border: 1px solid #999;
+}
+.testimonials .tns-outer .tns-controls button i {
+    color: #eee;
+}
+.testimonials .clients-slider .box .review .rev-head .details h3 {
+    color: #fefefe;
+}
+.testimonials .clients-slider .box .review p.text {
+    color: #bcbcbc;
+}
+/* Blog */
+.blog .content .blog-box {
+    box-shadow: 0px 0px 10px 1px #aaa;
+}
+.blog .content .blog-box h2 {
+    color: #eee;
+}
+.blog .content .blog-box .details a {
+    color: #999;
+}
+.blog .content .blog-box p {
+    color: #ddd;
+}
+/* Contact */
+.contact .field form input[type="text"],
+.contact .field form input[type="email"],
+.contact .field form textarea {
+    background-color: #444;
+    caret-color: #fff;
+    color: #eee;
+}
+.contact .field form input::placeholder,
+.contact .field form textarea::placeholder {
+    color: #aaa;
+}
+.field .contact-info address {
+    color: #aaa;
+}
+.field .contact-info a.link {
+    color: #aaa;
+}
+.field .contact-info a.phone {
+    color: #aaa;
+}
+.field .contact-info .social h3 {
+    color: #dedede;
+}
+.field .contact-info .social {
+    border-top: 1px solid #888;
+}
+.contact .contact-message {
+    background-color: #222;
+    border: 1px solid #555;
+}
+/* -------- */
+::selection {
+    color: #eee;
+    background-color: #34495e;
+}
