@@ -184,7 +184,7 @@ header .place-left {
 
 header .logo {
     position: relative;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 600;
     color: var(--main-color)
 }
