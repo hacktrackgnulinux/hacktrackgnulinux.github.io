@@ -11,5 +11,6 @@ Next update
 - dead link 
 - Privacy Policy
 - Terms & Conditions
-- about
-- contact
+- About
+- Contact
+- Mirror Repository
