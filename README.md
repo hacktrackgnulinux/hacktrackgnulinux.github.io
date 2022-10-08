@@ -6,3 +6,8 @@ Next update
 - Add Documentation (Panduan Install,Tools)
 - Setup Seo 
 - Add Faq
+- dead link 
+- Privacy Policy
+- Terms & Conditions
+- about
+- contact
