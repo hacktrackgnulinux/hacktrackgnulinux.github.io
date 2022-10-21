@@ -1495,7 +1495,7 @@ section.newapp::before {
 }
 
 .footer {
-    background-color: #2f3542;
+    background-color: #000000;
     padding: 20px 0
 }
 
@@ -1606,10 +1606,11 @@ section.newapp::before {
 /* Style Foother untuk Community Partners :*/
 * {margin: 0; padding: 0;}
 #container {height: 100%; width:100%; font-size: 0;}
-#left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
-#left {width: 25%; }
-#middle {width: 25%; }
-#right {width: 25%;}
+#satu, #dua, #tiga, #empat {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+#satu {width: 25%; }
+#dua {width: 25%; }
+#tiga {width: 25%;}
+#empat {width: 25%;}
 
 @keyframes loader {
     from {
