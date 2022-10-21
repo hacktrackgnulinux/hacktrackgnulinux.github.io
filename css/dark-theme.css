@@ -7,17 +7,17 @@
 */
 
 body {
-    background-color: #2d3436;
+    background-color: #090909;
 }
 .main-text p {
     color: #ddd;
 }
 .main-btn::after,
 .main-btn::before {
-    background-color: #2d3436;
+    background-color: #000000;
 }
 .main-btn:hover {
-    background-color: #2d3436;
+    background-color: #000000;
 }
 /* Header */
 header {
@@ -35,7 +35,7 @@ div.light-dark::after {
 }
 @media (max-width: 991px) {
     header nav ul {
-        background-color: #000;
+        background-color: #fff;
     }
 }
 /* Home */
@@ -77,7 +77,7 @@ div.light-dark::after {
 /* Howitwork */
 .howit .field .items .item span {
     color: #eee;
-    border: 2px solid #2d3436;
+    border: 2px solid #000000;
 }
 .howit .field .items .item h3 {
     border-bottom: 1px solid #ccc;
@@ -184,4 +184,12 @@ div.light-dark::after {
 ::selection {
     color: #eee;
     background-color: #34495e;
+}
+
+h3 {
+    color: #eee;
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 12px;
+    font-weight: 400
 }
