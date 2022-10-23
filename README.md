@@ -12,5 +12,5 @@ Next update
 - Privacy Policy
 - Terms & Conditions
 - About
-- Contact
+- Contact [Done]
 - Mirror Repository
