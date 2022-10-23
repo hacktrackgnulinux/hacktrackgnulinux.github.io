@@ -21,4 +21,4 @@ Website :
 - Add Night Mode and up button
 - Add ID language
 - Fix dead link and make it
-
+- Fix Colored Style to distro "Red maroon, black, white, grey"
