@@ -11,6 +11,14 @@ Next update
 - dead link 
 - Privacy Policy
 - Terms & Conditions
-- About
+- About [Done]
 - Contact [Done]
 - Mirror Repository
+
+Website :
+- Fix Size Navbar
+- Fix mode mobile
+- Add Night Mode and up button
+- Add ID language
+- Fix dead link and make it
+
