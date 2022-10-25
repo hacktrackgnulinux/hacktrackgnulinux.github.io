@@ -8,17 +8,17 @@ Next update
 - Tools
 - Setup Seo 
 - Add Faq
-- dead link 
-- Privacy Policy
-- Terms & Conditions
-- About [Done]
-- Contact [Done]
+- dead link   [Done]
+- Privacy Policy v
+- Terms & Conditions  [Done]
+- About
+- Contact 
 - Mirror Repository
 
 Website :
-- Fix Size Navbar
-- Fix mode mobile
+- Fix Size Navbar  [Done]
+- Fix mode mobile  [Done]
 - Add Night Mode and up button
 - Add ID language
-- Fix dead link and make it
-- Fix Colored Style to distro "Red maroon, black, white, grey"
+- Fix dead link and make it  [Done]
+- Fix Colored Style to distro "Red maroon, black, white, grey"  [Done]
