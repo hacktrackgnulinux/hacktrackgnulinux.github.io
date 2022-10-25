@@ -79,7 +79,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: #940909;
   min-height: 40px;
   margin-top: 82px;
   color: #000;
@@ -171,6 +171,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
+  background: #000;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -207,6 +208,8 @@ section {
 * Desktop Navigation 
 */
 .navbar {
+  background: #000000;
+  color: #000000;
   padding: 0;
 }
 
@@ -679,7 +682,7 @@ section {
 
 .features .feature-box i {
   line-height: 0;
-  background: #ecf3ff;
+  background: #000000;
   padding: 4px;
   margin-right: 10px;
   font-size: 24px;
@@ -689,7 +692,7 @@ section {
 
 .features .feature-box:hover i {
   background: #940909;
-  color: #F5F5F5;
+  color: #000000;
 }
 
 .features .feture-tabs {
@@ -697,7 +700,7 @@ section {
 }
 
 .features .feture-tabs h3 {
-  color: #012970;
+  color: #000000;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -710,7 +713,7 @@ section {
 }
 
 .features .feture-tabs .nav-pills {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #940909;
 }
 
 .features .feture-tabs .nav-link {
@@ -718,7 +721,7 @@ section {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  color: #012970;
+  color: #000000;
   padding: 12px 0;
   margin-right: 25px;
   margin-bottom: -2px;
@@ -734,7 +737,7 @@ section {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: #012970;
+  color: #000000;
 }
 
 .features .feture-tabs .tab-content i {
