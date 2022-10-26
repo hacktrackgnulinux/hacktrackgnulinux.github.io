@@ -1,25 +1,25 @@
 # hacktrackgnulinux.github.io
 Official Pages or Website <<Hack|Track GNU/Linux
 
-Note:
+Note
+Website : 
 Next update
-- Add Documentation [Progress] 
+- Add Documentation [Progress] <Lolic0d3>
 - Panduan Install 
 - Tools
 - Setup Seo 
 - Add Faq
-- dead link   [Done]
-- Privacy Policy v
-- Terms & Conditions  [Done]
-- About
-- Contact 
+- Add Night Mode and up button
+- Add ID Language
+- About [Progress] <dindinG41TR3>
+- Contact  [Progress] <dindinG41TR3>
 - Mirror Repository
 
-Website :
 - Fix Size Navbar  [Done]
 - Fix mode mobile  [Done]
-- Add Night Mode and up button
-- Add ID language
+- dead link   [Done]
+- Privacy Policy [Done]
+- Terms & Conditions  [Done]
 - Fix dead link and make it  [Done]
 - Fix Colored Style to distro "Red maroon, black, white, grey"  [Done]
 
