@@ -1,5 +1,5 @@
 # hacktrackgnulinux.github.io
-Official Pages or Website &lt;&lt;Hack|Track GNU/Linux
+Official Pages or Website <<Hack|Track GNU/Linux
 
 Note:
 Next update
@@ -22,3 +22,9 @@ Website :
 - Add ID language
 - Fix dead link and make it  [Done]
 - Fix Colored Style to distro "Red maroon, black, white, grey"  [Done]
+
+
+Template Name: FlexStart
+Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+Author: BootstrapMade.com
+License: https://bootstrapmade.com/license/
