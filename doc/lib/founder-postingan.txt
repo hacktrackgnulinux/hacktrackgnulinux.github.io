@@ -1,0 +1,35 @@
+Banyak hal yang berubah tapi konsep lama tidak akan terlupakan :
+1.  Fokus Distro Pentester Live System
+     a. Dulu i386 sekerang jadi i686 untuk 32versi dan 64bit amd64
+     b. i686 Fokus Komputer lama "USB 2.0"
+     c. amd64 Fokus Gen Laptop dan Komputer Baru
+         USB 3.0 Support
+2. DE Mate Untuk mengembalikan kenangan yang hilang dengan gnome2  "Inspired by BackTrack Linux"
+      a. Tidak akan ada Login Manager (gdm/lightdm dll)
+      b. Login di awal akan selalu TTY untuk gui gunakan startx
+          mengutamakan performa RAM disaat LIVE
+3. Tools ada NATIVE Inspired Folder at /pentest/ 
+     a. Tools NATIVE akan ada script khusus yang akan mengelola versi dari toolsnya.
+     b. TOOLS apt juga ada di https://deb.hacktracklinux.org
+5. Tools akan dikelola dengan seminimal mungkin tapi powerfull dan banyak digunakan. di https://tools.hacktracklinux.org/
+6. 
+Perbedaan Project Lama dan Yang baru
+Lama :
+REVOLUTION 2017.1 "Based Jessie" 32BIT i386
+---- > Latest 2020.1 Repositon -> i686 "Archive" -> Discontinue
+IMAGE ISO MBR BIOS LEGACY
+Baru :
+RETURN 2022.1 "Based Bullseye" 64BIT amd64
+----> Latest 2022.1 RC03 Return
+IMAGE ISO GPT UEFI & BIOS Legacy (Hybrid)
+Setelah menilai dari berbagai aspek penelitian mengenai review sebelumnya mengenai tools yang kurang standar maka dimulai dari project baru yang benar2 baru dengan basis masih debian. Banyak sekali pembaharuan tools2 baru yang umum dan minimal ada dalam sebuah distro pentester !.
+Jika ada tools yang baru bisa ditambahkan ke database tools 
+di https://github.com/hacktrackgnulinux/data-tools
+https://www.hacktracklinux.org/
+RETURN Artinya Memulai Kembali dimana project sempat terhenti karena terhalang pribadi. yang kurang fokus dan kompleks.
+Alasan Kembali 
+1. RESEACH SUDAH DEEP mengenai BASE SYSTEM 
+2. MEMULAI SESUATU YANG BARU DALAM DISTRO PENTESTER DENGAN SEBUAH CITRA PRODUCT AND REAL EXPERIENCE
+3. HTGL INI API PEMBAKAR SEMANGAT DALAM NGULIX LINUX LEBIH DEEP
+4. MAAF SUDAH DRAMA QUIT DARI HACKTRACK LINUX.
+5. HARAPANNYA DISTRO INI BERKEMBANG DAN LEBIH BAIK LAGI
