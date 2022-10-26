@@ -1,0 +1,17 @@
+Artwork Text
+   
+   <<Hack|Track GNU/Linux
+
+Alternatif Name
+- HackTrack GNU/Linux
+- HackTrack Linux
+- HTGL
+
+ASCI
+
+   ____  _   _            _    _ _____               _    
+  / / / | | | | __ _  ___| | _| |_   _| __ __ _  ___| | __
+ / / /  | |_| |/ _` |/ __| |/ / | | || '__/ _` |/ __| |/ /
+ \ \ \  |  _  | (_| | (__|   <| | | || | | (_| | (__|   < 
+  \_\_\ |_| |_|\__,_|\___|_|\_\ | |_||_|  \__,_|\___|_|\_\.
+  "return of dreams come true"|_| GNU/Linux
