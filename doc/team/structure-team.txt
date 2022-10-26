@@ -1,0 +1,27 @@
+
+
+
+
+                     ██╗░░██╗████████╗░██████╗░██╗░░░░░
+                     ██║░░██║╚══██╔══╝██╔════╝░██║░░░░░
+                     ███████║░░░██║░░░██║░░██╗░██║░░░░░
+                     ██╔══██║░░░██║░░░██║░░╚██╗██║░░░░░
+                     ██║░░██║░░░██║░░░╚██████╔╝███████╗
+                     ╚═╝░░╚═╝░░░╚═╝░░░░╚═════╝░╚══════╝
+                                          P R O J E C T
+         Website : https://www.hacktracklinux.org E-Mail :  team@hacktracklinux.org
+   _____________________________________________________________________________________
+                  STRUCTURE "TEAM DEVELOPMENT" HTGL PROJECT
+                       ------------------------------
+                               dindinG41TR3
+                              -={Founder}=-
+                                   # /
+                                    |
+                                    |
+                   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+                  |                 |                      |
+                  |                 |                      |
+               Afrzlfa            LoliC0d3             gagaltotal
+           {Co-Founder}     {UI/UX Designer}      {Software Enginer}
+              # /root             # /org               # /dev
+        
