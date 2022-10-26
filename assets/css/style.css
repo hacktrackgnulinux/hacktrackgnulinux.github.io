@@ -2289,7 +2289,7 @@ section {
 }
 
 .footer .footer-top {
-  background: black no-repeat right top;
+  background: black url(../img/ft-hacktrack.png) no-repeat right top;
   background-size: contain;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
