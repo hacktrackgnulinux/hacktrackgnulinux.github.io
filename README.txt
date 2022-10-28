@@ -9,12 +9,16 @@ Next update
 - Tools
 - Setup Seo 
 - Add Faq
-- Add Night Mode and up button
+- Add Night Mode 
 - Add ID Language
 - About [Progress] <dindinG41TR3>
-- Contact  [Progress] <dindinG41TR3>
+- Contact [Progress] <dindinG41TR3>
+- Project [Progress] <dindinG41TR3>
+- Order [Progress] <dindinG41TR3>
 - Mirror Repository
 
+- Add Up Button [Done]
+- Fix Pages Dont Show Original Github Pages [Done]
 - Fix Size Navbar  [Done]
 - Fix mode mobile  [Done]
 - dead link   [Done]
