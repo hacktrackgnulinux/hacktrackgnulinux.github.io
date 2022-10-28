@@ -2408,3 +2408,96 @@ section {
   font-size: 13px;
   color: #012970;
 }
+/* Injection From Version 3*/
+.ftco-serial {
+  padding: 5em 0;
+  background: black;   }
+  
+.ftco-serial {
+  padding: 5em 0;
+  background: #000000; }
+
+.serial-form {
+  width: 100%;
+  display: block; }
+  .serial-form .serial-name {
+    width: calc(100% - 300px); }
+    @media (max-width: 767.98px) {
+      .serial-form .serial-name {
+        width: 100%; } }
+  .serial-form .serial-select {
+    width: 300px; }
+    @media (max-width: 767.98px) {
+      .serial-form .serial-select {
+        width: 100%; } }
+  .serial-form .form-group {
+    position: relative;
+    margin-bottom: 0; }
+    .serial-form .form-group select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-left: 1px solid #e6e6e6 !important; }
+    .serial-form .form-group .form-control {
+      height: 60px !important; }
+    .serial-form .form-group input, .serial-form .form-group select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      font-size: 14px;
+      padding-right: 20px !important;
+      color: #000;
+      border: none; }
+      .serial-form .form-group input.name, .serial-form .form-group select.name {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px; }
+      .serial-form .form-group input option, .serial-form .form-group select option {
+        color: #000; }
+      .serial-form .form-group input::-webkit-input-placeholder, .serial-form .form-group select::-webkit-input-placeholder {
+        color: #000 !important; }
+      .serial-form .form-group input::-moz-placeholder, .serial-form .form-group select::-moz-placeholder {
+        color: #000 !important; }
+      .serial-form .form-group input:-ms-input-placeholder, .serial-form .form-group select:-ms-input-placeholder {
+        color: #000 !important; }
+      .serial-form .form-group input:-moz-placeholder, .serial-form .form-group select:-moz-placeholder {
+        color: #000 !important; }
+      .serial-form .form-group input:focus, .serial-form .form-group input:active, .serial-form .form-group select:focus, .serial-form .form-group select:active {
+        border: none; }
+    .serial-form .form-group .btn-primary {
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      border-radius: 0;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      color: #fff;
+      text-align: center;
+      background: #940909;
+      background: -moz-linear-gradient(45deg, #940909 0%, #000000 100%);
+      background: -webkit-gradient(left bottom, right top, color-stop(0%, #940909), color-stop(100%, #000000));
+      background: -webkit-linear-gradient(45deg, #940909 0%, #000000 100%);
+      background: -o-linear-gradient(45deg, #940909 0%, #000000 100%);
+      background: -ms-linear-gradient(45deg, #940909 0%, #000000 100%);
+      background: linear-gradient(45deg, #940909 0%, #000000 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#940909', endColorstr='#000000', GradientType=1 ); }
+  .serial-form .select-wrap {
+    position: relative;
+    width: 80px; }
+  .serial-form .search-serial {
+    width: calc(100% - 120px); }
+    @media (max-width: 991.98px) {
+      .serial-form .search-serial {
+        width: calc(100% - 80px); } }
+  .serial-form .icon {
+    position: absolute;
+    top: 50% !important;
+    right: 15px;
+    font-size: 14px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #000; }
+    @media (max-width: 767.98px) {
+      .serial-form .icon {
+        right: 15px; } }
+
