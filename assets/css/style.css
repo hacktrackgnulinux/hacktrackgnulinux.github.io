@@ -882,21 +882,30 @@ section {
   background: #08da4e;
 }
 
-.services .service-box.red {
-  border-bottom: 3px solid #e9222c;
+.services .service-box.grey {
+  border-bottom: 3px solid #940909;
 }
 
-.services .service-box.red .icon {
-  color: #e9222c;
-  background: #fef7f8;
+.services .service-box.grey .icon {
+  color: #940909;
+  background: #000000;
 }
 
-.services .service-box.red .read-more {
-  color: #e9222c;
+.services .service-box.grey a {
+  color: #940909;
+  background: #000000;
 }
 
-.services .service-box.red:hover {
-  background: #e9222c;
+.services .service-box.grey p {
+  color: #000000;
+}
+
+.services .service-box.grey .read-more {
+  color: #940909;
+}
+
+.services .service-box.grey:hover {
+  background: #940909;
 }
 
 .services .service-box.purple {
@@ -913,9 +922,26 @@ section {
 }
 
 .services .service-box.purple:hover {
-  background: #b50edf;
+  background: #2E3436;
+}
+/* */
+.services .service-box.grey {
+  border-bottom: 3px solid #2E3436;
 }
 
+.services .service-box.grey .icon {
+  color: #000000;
+  background: #940909;
+}
+}
+.services .service-box.grey .read-more {
+  color: #2E3436;
+}
+
+.services .service-box.grey:hover {
+  background: #940909;
+}
+/* */
 .services .service-box.pink {
   border-bottom: 3px solid #f51f9c;
 }
