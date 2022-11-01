@@ -6,7 +6,7 @@ Website :
 Next update
 - Add Documentation [Progress] <Lolic0d3>
 - Panduan Install 
-- Tools
+- Tools [Progress] <Lolic0d3>
 - Setup Seo 
 - Add Faq
 - Add Night Mode 
