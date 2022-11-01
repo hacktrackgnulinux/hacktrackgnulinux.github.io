@@ -338,7 +338,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #940909;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -367,7 +367,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
 }
 
@@ -395,7 +395,7 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #000000;
 }
 
 .navbar-mobile a:hover,
