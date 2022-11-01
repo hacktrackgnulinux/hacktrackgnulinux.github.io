@@ -2065,11 +2065,11 @@ section {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: #012970;
+  background-color: #940909;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #013289;
+  background-color: #940909;
 }
 
 .blog .blog-pagination {
@@ -2338,12 +2338,12 @@ section {
 }
 
 .footer .footer-top .footer-info .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+  max-height: 70px;
+  margin-right: 2px;
 }
 
 .footer .footer-top .footer-info .logo span {
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #F5F5F5;
