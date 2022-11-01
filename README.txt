@@ -7,7 +7,7 @@ Next update
 - Add Documentation [Progress] <Lolic0d3>
 - Panduan Install 
 - Tools [Progress] <Lolic0d3>
-- Setup Seo 
+- Setup Seo [Progress] <Lolic0d3>
 - Add Faq
 - Add Night Mode 
 - Add ID Language
