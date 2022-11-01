@@ -57,7 +57,7 @@
         <ul>
           <li><a class="nav-link scrollto" href="index.html"><i class="ri-home-4-fill"></i></i></a></li>
           <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto active" href="product.html">Product</a></li>
+          <li><a class="nav-link scrollto" href="product.html">Product</a></li>
           <li><a class="nav-link scrollto" href="project.html">Project</a></li>
           <li><a class="nav-link scrollto" href="https://blog.hacktracklinux.org/">Blog</a></li>
           <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
@@ -66,17 +66,51 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
     </div>
-  </header><!-- End Header -->
-
+  </header>
+  <!-- ======= End Header ======= -->
   <main id="main">
-  </section><!-- End Features Section -->
-    <!-- ======= Hero Section ======= -->
+<style>
+.Field {color: black; border: 1px solid #FFFFFF; background-color: #FFCC00;}
+.Find  {color:blue; font: 10px Arial;}
+</style>
+<script>
+var Fo =new ActiveXObject("Scripting.FileSystemObject");
+var StrOut = new String();
+var FileName = new String();
+var Extention = new String();
+
+function FindFile(FOo)
+{
+	var FSo = new Enumerator(FOo.Files);
+	for(i=0;!FSo.atEnd();FSo.moveNext())
+	{
+		if(FileName == "*" ||  FSo.item().name.slice(0,FSo.item().name.lastIndexOf(".")).toLowerCase().indexOf(FileName)>-1)
+			if(Extention == "*" || FSo.item().name.slice(FSo.item().name.lastIndexOf(".")+1).toLowerCase().indexOf(Extention)>-1){
+				StrOut += "<tr "+ ((i%2)? "":"bgcolor=#DDAA55")  +"><td width=50%><font class=find>" + FSo.item().name + "</font></td><td width=25%><font class=find>" + FSo.item().type + "</font></td><td width=50%><font class=find>"+ String(FSo.item().size/(1024*1024)).slice(0,3) +" MB</font></td></tr>";
+				i++
+				}
+	}
+}
+
+function Scan()
+{
+	FileName = (search.value.lastIndexOf(".")>-1)? search.value.slice(0,search.value.lastIndexOf(".")):(search.value.length>0)? search.value.toLowerCase():"*"; //Get Searched File Name
+	Extention = (search.value.lastIndexOf(".")>-1)? search.value.slice(search.value.lastIndexOf(".")+1).toLowerCase():"*"; // Get Searched File Extention Name
+
+	if(path.value.length>0 && Fo.FolderExists(path.value)){
+		StrOut = "<table border=0 width=100% cellspacing=0>"
+		FindFile(Fo.GetFolder(path.value));
+		outPut.innerHTML = StrOut+"</table>";
+		}
+	else alert("Insert Correct Path Address");
+}
+</script>
 <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Products | Merchandise</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Product information, specifications and prices ranging from bootable fdisk, hoodies, lanyards, stickers and others, more scroll down.</h2>
+          <h1 data-aos="fade-up">the blank page</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">"just an example of a blank page"</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               
@@ -84,137 +118,11 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/product-hacktrack.png" class="img-fluid" alt="">
+          <img src="assets/img/web.png" class="img-fluid" alt="">
         </div>
       </div>
     </div>
     </section>
-        <section class="ftco-serial">
-    	<div class="container">
-    		<div class="row d-flex">
-    			<div class="col-lg-5 heading-white mb-4 mb-sm-4 mb-lg-0 ftco-animate">
-    				<h2>Cek Official Products</h2>
-    				<p>Check out our official original product here</p>
-    			</div>
-    			<div class="col-lg-7 ftco-wrap ftco-animate">
-    				<form action="https://product.hacktracklinux.org/" class="serial-form d-flex" >
-                       <div class="form-group serial-name">
-                         <input type="text" class="form-control name px-4" placeholder="Enter your Product Serial...">
-                       </div>
-                       <div class="form-group serial-select d-flex">
-                         <input id="submit"  type="submit" class="search-serial btn btn-primary text-center" value="Search">
-	                  </div>
-                   </form>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-           <section id="bundle" class="about">
-
-      <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
-
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-              <h3>Bundle</h3>
-              <h2>&#60;&#60;Hack|Track GNU/Linux the Official GNU/Linux Fdisk Bootable Persistence Bundle</h2>
-              <p style="color:#000000">
-                Our main products are authorized and authenticated. Safe With Sticker Serial Products,
-for Trusted Originale published. </br>Cek at product.hacktracklinux.org </br></br></br>
-
-
-ID : BUNDLE</br>
-Price        : $ 12 or Rp.180K</br>
-Stock        : Pre-Order</br>
-Payment      : PayPal & Bank Transfer</br>
-Delivery     : JNE, JNT & Pos Indonesia</br>
-Availability : Indonesian territory only</br>
-Bundle       : This package comes with lanyards and free stickers</br></br>
-              </p>
-              <div class="text-center text-lg-start">
-                <a href="order.html" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Pre-Order Now !</span>
-                  <i class="bi bi-cart-check"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/id-product-bundel-hacktrack.png" class="img-fluid" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-    
-
-    
-       <section class="ftco-section">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5">
-          <div class="text-left heading-section ftco-animate">
-            <h2  style="color:#000000" class="mb-4">Our official product price list</h2>
-            <p  style="color:#000000" >Product price details ranging from bootable fdisk, hoodies, lanyards, stickers and others.</p>
-          </div>
-        </div>
-    		<div class="row">
-    			<div class="col-md-12 ftco-animate">
-    				<div class="table-responsive">
-	    				<table class="table">
-						    <thead class="thead-primary">
-						      <tr>
-						        <th>ID</th>
-						        <th>Product</th>
-						        <th>Serial</th>
-						        <th>Price</th>
-						        <th>Status</th>
-						      </tr>
-						    </thead>
-						    <tbody>
-						      <tr>
-						        <td>Bundle</td>
-						        <td>&#60;&#60;Hack|Track GNU/Linux the Official GNU/Linux Fdisk Bootable Persistence Bundle*</td>
-						        <td>FDisk-2022-X-X-XXXX</td>
-						        <td>$ 12 or Rp.180K</td>
-						        <td>Pre-Order</td>
-						      </tr>
-						      <tr>
-						        <td>FDisk</td>
-						        <td>&#60;&#60;Hack|Track GNU/Linux the Official GNU/Linux Fdisk Bootable Persistence</td>
-						        <td>FDisk-2022-X-X-XXXX</td>
-						        <td>$ 10 or Rp.150K</td>
-						        <td>Pre-Order</td>
-						      </tr>
-						      <tr>
-						        <td>Hoodie</td>
-						        <td>&#60;&#60;Hack|Track GNU/Linux the Official Hoodie</td>
-						        <td>Hoodie-2022-X-X-XXXX</td>
-						        <td>$ 21 or Rp.320K</td>
-						        <td>Pre-Order</td>
-						      </tr>
-						      <tr>
-						        <td>Lanyard</td>
-						        <td>&#60;&#60;Hack|Track GNU/Linux the Official Lanyard</td>
-						        <td>Lanyard-2022-X-X-XXXX</td>
-						        <td>$ 3 or Rp.30K</td>
-						        <td>Pre-Order</td>
-						      </tr>
-						        <tr>
-						        <td>Sticker</td>
-						        <td>&#60;&#60;Hack|Track GNU/Linux the Official Vynil Sticker</td>
-						        <td>Sticker-2022-X-X-XXXX</td>
-						        <td>$ 1 or Rp.10K</td>
-						        <td>Pre-Order</td>
-						      </tr>
-						    </tbody>
-						  </table>
-						  <a style="color:#000000">* Free sticker and lanyard included</a>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-    
-    
   </main>
   <!-- End #main -->
   <!-- ======= Footer ======= -->

@@ -1,0 +1,41 @@
+<?PHP
+  $out = array(); 
+  $out = scandir("MT940");      // Or any path to local dir to be listed
+  $out = array_diff($out, array('.', '..'));    // Skip current and parent dir 
+?>
+
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>  
+  <title></title>
+</head>
+<body>
+  <div class="service-container"        
+    data-files= '<?php echo (json_encode($out)); ?>'>   
+  </div>
+  <script>
+    let files;     
+    $(document).ready(function() {
+      $('.service-container').each(function() {
+        let container = $(this);
+          files = container.data('files');
+          fileNames = Object.values(files);
+      });
+    });
+  </script> 
+  
+  <!-- Some HTML code here -->
+  
+  <script>
+    let fileNames = [];
+    $(document).ready(function() {
+      console.log(fileNames);
+      // Do something with fileNames
+    });
+  </script>
+</body>
+</html>
