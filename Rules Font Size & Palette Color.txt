@@ -5,6 +5,6 @@ h4 15px
 p  14px
 a  12px
 
-red=
+red=rgba 148 9 9 0.9 #940909
 black=
 white=
