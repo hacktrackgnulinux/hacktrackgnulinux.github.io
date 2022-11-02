@@ -1490,18 +1490,18 @@ section {
   padding: 10px 15px 20px 15px;
 }
 
-.team .member .member-info h4 {
+.team .member .member-info h2 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #940909;
+  color: #FFFFFF;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 14px;
   font-weight: 400;
-  color: #940909;
+  color: #FFFFFF;
 }
 
 .team .member .member-info p {
@@ -2260,6 +2260,14 @@ section {
   background: #000000;
   padding: 0 0 30px 0;
   font-size: 14px;
+}
+.footer h3 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  line-height: 1;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .footer .footer-newsletter {
