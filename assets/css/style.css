@@ -50,26 +50,24 @@ section {
 }
 
 .section-header h2 {
-  font-size: 13px;
+  font-size: 25px;
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
   color: #940909;
-  text-transform: uppercase;
 }
 
 .section-header p {
   margin: 10px 0 0 0;
   padding: 0;
-  font-size: 38px;
+  font-size: 14px;
   line-height: 42px;
-  font-weight: 700;
-  color: #012970;
+  color: #000000;
 }
 
 @media (max-width: 768px) {
   .section-header p {
-    font-size: 28px;
+    font-size: 14px;
     line-height: 32px;
   }
 }

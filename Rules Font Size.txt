@@ -1,0 +1,11 @@
+h1 30px
+h2 25px
+h3 20px
+h4 15px
+p  14px
+a  12px
+
+red=940909 rgba 148, 9, 9, 1 0.9 0.8
+black=000000
+white=ffffff
+grey=2E3436
