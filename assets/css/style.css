@@ -1095,8 +1095,10 @@ section {
   padding: 0 0 25px 0;
   border: 0;
 }
-
-.faq p{
+text-primary {
+  color: #000000;
+}
+.faq p {
 
   color: #000000;
   }
