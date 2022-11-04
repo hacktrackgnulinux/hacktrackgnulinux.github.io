@@ -8,7 +8,6 @@ Next update
 - Panduan Install 
 - Tools [Progress] <Lolic0d3>
 - Setup Seo [Progress] <Lolic0d3>
-- Add Faq
 - Add Night Mode 
 - Add ID Language
 - About [Progress] <dindinG41TR3>
@@ -17,6 +16,7 @@ Next update
 - Order [Progress] <dindinG41TR3>
 - Mirror Repository
 
+- Add Faq  [Done]
 - Add Up Button [Done]
 - Fix Pages Dont Show Original Github Pages [Done]
 - Fix Size Navbar  [Done]
