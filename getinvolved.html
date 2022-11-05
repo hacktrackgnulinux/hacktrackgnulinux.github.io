@@ -59,194 +59,115 @@
           <li><a class="nav-link scrollto" href="about.html">About</a></li>
           <li><a class="nav-link scrollto" href="product.html">Product</a></li>
           <li><a class="nav-link scrollto" href="project.html">Project</a></li>
-          <li><a class="nav-link scrollto" href="getinvolved.html" aria-label="HackTrack Linux Get Involved">Get Involved</a></li>
+          <li><a class="nav-link scrollto active" href="getinvolved.html" aria-label="HackTrack Linux Get Involved">Get Involved</a></li>
           <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
           <li><a class="getstarted scrollto" href="download.html">Download Now!</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
     </div>
-  </header><!-- End Header -->
-
+  </header>
+  <!-- ======= End Header ======= -->
   <main id="main">
-    <!-- ======= Hero Section ======= -->
+<style>
+.Field {color: black; border: 1px solid #FFFFFF; background-color: #FFCC00;}
+.Find  {color:blue; font: 10px Arial;}
+</style>
+<script>
+var Fo =new ActiveXObject("Scripting.FileSystemObject");
+var StrOut = new String();
+var FileName = new String();
+var Extention = new String();
+
+function FindFile(FOo)
+{
+	var FSo = new Enumerator(FOo.Files);
+	for(i=0;!FSo.atEnd();FSo.moveNext())
+	{
+		if(FileName == "*" ||  FSo.item().name.slice(0,FSo.item().name.lastIndexOf(".")).toLowerCase().indexOf(FileName)>-1)
+			if(Extention == "*" || FSo.item().name.slice(FSo.item().name.lastIndexOf(".")+1).toLowerCase().indexOf(Extention)>-1){
+				StrOut += "<tr "+ ((i%2)? "":"bgcolor=#DDAA55")  +"><td width=50%><font class=find>" + FSo.item().name + "</font></td><td width=25%><font class=find>" + FSo.item().type + "</font></td><td width=50%><font class=find>"+ String(FSo.item().size/(1024*1024)).slice(0,3) +" MB</font></td></tr>";
+				i++
+				}
+	}
+}
+
+function Scan()
+{
+	FileName = (search.value.lastIndexOf(".")>-1)? search.value.slice(0,search.value.lastIndexOf(".")):(search.value.length>0)? search.value.toLowerCase():"*"; //Get Searched File Name
+	Extention = (search.value.lastIndexOf(".")>-1)? search.value.slice(search.value.lastIndexOf(".")+1).toLowerCase():"*"; // Get Searched File Extention Name
+
+	if(path.value.length>0 && Fo.FolderExists(path.value)){
+		StrOut = "<table border=0 width=100% cellspacing=0>"
+		FindFile(Fo.GetFolder(path.value));
+		outPut.innerHTML = StrOut+"</table>";
+		}
+	else alert("Insert Correct Path Address");
+}
+</script>
 <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up">Release Candidate</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Release Candidate Version is a cdimage in the form of an .iso file created weekly uploaded with new updates every weekend.</h2>
+          <h1 data-aos="fade-up">Get Involved</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Join us in building this project. We need your contribution in the form of real support and contribution.</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="https://cdimage.hacktracklinux.org/RC/hacktrack-2022.1_RC06-amd64.iso" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"><span>Download</span><i class="bi bi-arrow-down-square"></i></a><p> RC06 64Bit 1.7GB</p><p></p>
               
             </div>
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="assets/img/rc-hacktrack.png" class="img-fluid" alt="">
+          <img src="assets/img/laptop-hacktrack.png" class="img-fluid" alt="">
         </div>
       </div>
     </div>
-  </section><!-- End Hero -->
-  <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    </section>
+    <section id="bundle" class="about">
 
       <div class="container" data-aos="fade-up">
-  <!-- Feature Tabs -->
-        <div class="row feture-tabs" data-aos="fade-up">
-          <div class="col-lg-6">
-            <h3>Find more</h3>
+        <div class="row gx-0">
 
-            <!-- Tabs -->
-            <ul class="nav nav-pills mb-3">
-              <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Release Candidate</a>
-              </li>
-              <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Release Fixed</a>
-              </li>
-              <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Rolling Release</a>
-              </li>
-            </ul><!-- End Tabs -->
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Finance</h3>
+              <h2>Sponsor</h2>
+              <p style="color:#000000">
+                Making a financial contribution to project funding as a sponsor.</p>
 
-            <!-- Tab Content -->
-            <div class="tab-content">
-
-              <div class="tab-pane fade show active" id="tab1">
-                <a style="color:#000000">Release Candidate is a cdimage in the form of an .iso file created weekly uploaded with new updates every weekend.</a>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Unstable</h4>
-                </div>
-                <a style="color:#000000">Unstable and still under construction. but you can try as a tester. and report bugs to us if found.</a>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Changelog</h4>
-                </div>
-                <a style="color:#000000">V.RC06</br>
- * Add RC Wallpaper Edisi  </br>
- * Fixed issue websploit</br>
- * Fix Error pip and pip3</br>
-   </a>
-              </div><!-- End Tab 1 Content -->
-
-              <div class="tab-pane fade show" id="tab2">
-                <a style="color:#000000">Release Fixed is a cdimage in the form of an .iso file created after a Release Candidate is declared 99% Stable and uploaded with a new update at the end of every year.</a>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Stable</h4>
-                </div>
-                <a style="color:#000000">Currently not available.</a>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Changelog</h4>
-                </div>
-                <a style="color:#000000">Currently not available.</a>
-              </div><!-- End Tab 2 Content -->
-
-              <div class="tab-pane fade show" id="tab3">
-                <a style="color:#000000">Rolling Release are unstable tools packages that can be installed on Release Fixed.</a>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Tools</h4>
-                </div>
-                <a style="color:#000000">Unstable Tools and still under construction. but you can try as a tester. and report bugs to us if found.</a>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Source</h4>
-                </div>
-                <a style="color:#000000">source can be visited on <a style="color:#940909" href="https://tools.hacktracklinux.org">https://tools.hacktracklinux.org</a></a>
-              </div><!-- End Tab 3 Content -->
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            <img src="assets/img/download-hacktrack.png" class="img-fluid" alt="">
-          </div>
-
-        </div><!-- End Feature Tabs -->
-              </div>
-</section>
-    <!-- ======= Screenshot 
-
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-                  <div class="row feture-tabs" data-aos="fade-up">
-          <div class="col-lg-6">
-            <h3 style="color:#000000">Screenshot</h3>
-            </div></div>
-        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-        
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/isolinux.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Isolinux</h4>
-                <p>Screenshot</p>
+<iframe src="https://github.com/sponsors/hacktrackgnulinux/card" title="Sponsor hacktrackgnulinux" height="225" width="500" style="border: 0;"></iframe>
+              <h2>Donation</h2>
+              <p style="color:#000000">
+                Make a financial contribution to project funding as a donor.</p>
+              <div class="text-center text-lg-start">
+                <a href="https://github.com/sponsors/hacktrackgnulinux?frequency=one-time&sponsor=" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Donate</span>
+                  <i class="bi bi-box-arrow-in-up-right"></i>
+                </a>
               </div>
             </div>
           </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/vesamenu.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Vesamenu</h4>
-                <p>Screenshot</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/systemd.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Booting</h4>
-                <p>Screenshot</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/tty.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Tty1</h4>
-                <p>Screenshot</p> 
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/desktop.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Desktop</h4>
-                <p>Screenshot</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/open-menu.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Menu</h4>
-                <p>Screenshot</p>
-            </div>
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/web.png" class="img-fluid" alt="">
           </div>
         </div>
-
       </div>
+</br>
 
-    </section><!-- End Portfolio Section ======= -->
-      
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Project</h3>
+              <h2>Report bugs</h2>
+              <p style="color:#000000">
+                If there is a bug, please report it to team@hacktracklinux.org</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- End #main -->
   <!-- ======= Footer ======= -->
