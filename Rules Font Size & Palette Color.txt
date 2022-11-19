@@ -1,3 +1,4 @@
+Rules Font Size :
 h1 30px
 h2 25px
 h3 20px
@@ -5,6 +6,7 @@ h4 15px
 p  14px
 a  12px
 
+Palette Color :
 red=rgba 148 9 9 0.9 #940909
-black=
-white=
+black=000
+white=fff

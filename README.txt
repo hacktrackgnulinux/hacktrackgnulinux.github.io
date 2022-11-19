@@ -5,17 +5,17 @@ Note
 Website : 
 Next update
 - Add Documentation [Progress] <Lolic0d3>
-- Panduan Install 
+- Panduan Install <dindinG41TR3>
 - Tools [Progress] <Lolic0d3>
 - Setup Seo [Progress] <Lolic0d3>
 - Add Night Mode 
-- Add ID Language
-- About [Progress] <dindinG41TR3>
-- Contact [Progress] <dindinG41TR3>
-- Project [Progress] <dindinG41TR3>
-- Order [Progress] <dindinG41TR3>
+- Add ID Language 
 - Mirror Repository
 
+- About  [Done]
+- Contact  [Done]
+- Project  [Done]
+- Order  [Done]
 - Add Faq  [Done]
 - Add Up Button [Done]
 - Fix Pages Dont Show Original Github Pages [Done]
@@ -26,7 +26,6 @@ Next update
 - Terms & Conditions  [Done]
 - Fix dead link and make it  [Done]
 - Fix Colored Style to distro "Red maroon, black, white, grey"  [Done]
-
 
 Template Name: FlexStart
 Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
