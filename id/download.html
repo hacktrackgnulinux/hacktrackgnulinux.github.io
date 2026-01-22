@@ -61,14 +61,14 @@
             </a>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="index.html"><i class="ri-home-4-fill"></i></i></a></li>
-                    <li><a class="nav-link scrollto" href="about.html">Tentang</a></li>
-                    <li><a class="nav-link scrollto" href="product.html">Produk</a></li>
-                    <li><a class="nav-link scrollto" href="project.html">Proyek</a></li>
-                    <li><a class="nav-link scrollto" href="getinvolved.html"
-                            aria-label="HackTrack Linux Get Involved">Ikut Terlibat</a></li>
-                    <li><a class="nav-link scrollto" href="contact.html">Kontak</a></li>
-                    <li><a class="getstarted scrollto" href="download.html">Unduh Sekarang!</a></li>
+                    <li><a class="nav-link scrollto active" aria-label="HackTrack Linux HTML Index" href="index.html"><i class="ri-home-4-fill"></i></i></a></li>
+                    <li><a class="nav-link scrollto" href="about.html"       aria-label="Halaman Tentang HackTrack Linux">Tentang</a></li>
+                    <li><a class="nav-link scrollto" href="product.html"     aria-label="Halaman Produk HackTrack Linux">Produk</a></li>
+                    <li><a class="nav-link scrollto" href="project.html"     aria-label="Halaman Proyel HackTrack Linux">Proyek</a></li>
+                    <li><a class="nav-link scrollto" href="getinvolved.html" aria-label="Halaman Ikut Terlibat HackTrack Linux">Ikut Terlibat</a></li>
+                    <li><a class="nav-link scrollto" href="contact.html"     aria-label="Halaman Kontak HackTrack Linux">Kontak</a></li>
+					<li><a class="nav-link scrollto" href="../index.html"    aria-label="Halaman Terjemahan HackTrack Linux"><i class="ri-translate"></i>&nbsp;en</a></li>
+                    <li><a class="getstarted scrollto" href="download.html"  aria-label="Halaman Unduh Sekarang! HackTrack Linux">Unduh Sekarang!</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -85,16 +85,12 @@
                         <h2 data-aos="fade-up" data-aos-delay="400">Versi Release Candidate adalah sebuah cdimage dalam bentuk file .iso yang dibuat setiap akhir bulan dengan pembaruan terbaru yang telah dikemas. File ini dioptimalkan untuk digunakan pada bootable flash disk, memungkinkan pengguna untuk menjalankan sistem langsung dari perangkat penyimpanan USB tanpa instalasi penuh.</h2>
                         <div data-aos="fade-up" data-aos-delay="600">
                             <div class="text-center text-lg-start">
-                                <!---
-             <h2>Official</h2>
-              <a href="https://cdimage.hacktracklinux.org/RC/hacktrack-2023.1_RC14-amd64.iso" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"><span>DOWNLOAD NOW</span><i class="bi bi-usb-drive"></i></a><p> Version: RC14 64Bit 2.3GB</br> md5sums: 286cbdd2d9ecf00de5f7303d1a8779c4 </br></br>
-               ---->
                                 <h2>Mirrors</h2>
                                 <a href="https://sourceforge.net/projects/hacktrack/files/latest/download"><img
                                         alt="Download <<Hack|Track GNU/Linux"
                                         src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48
                                         srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
-                                <p> Versi: RC14 64Bit 2.3GB</br> md5sums: 286cbdd2d9ecf00de5f7303d1a8779c4
+                                <p> Versi: RC18 64Bit 2.5 GB</br> md5sums: de66910d2ce10d04cd701d58ff5885c2
                                     </br></br>README:</br> Unduh dan buat bootable atau beli produk resmi fdisk.</p>
                             </div>
                         </div>
@@ -114,13 +110,13 @@
                         </br></br></br>
                         <h1 data-aos="fade-up"><i class="bi bi-hdd"></i> Release Fixed</h1>
                         <h2 data-aos="fade-up" data-aos-delay="400">Release Fixed juga merupakan tag versi Release Candidate yang merupakan akhir setiap tahun. </br>
-                            Dioptimalkan untuk instalasi pada HDD atau SSD. Baca dan ikuti petunjuk HGTL-Clone pada desktop. Layanan instalasi berbayar hubungi kami melalui email di hacktracklinux@yahoo.com </h2>
+                            Dioptimalkan untuk instalasi pada HDD atau SSD. Baca dan ikuti petunjuk HGTL-Clone pada desktop. Layanan instalasi berbayar hubungi kami melalui email di redlovereturn@yahoo.com </h2>
                         <div data-aos="fade-up" data-aos-delay="600">
                             <div class="text-center text-lg-start">
                                 <a href="https://sourceforge.net/p/hacktrack/cdimage/ci/master/tree/script/HTGL-Clone.sh"
                                     class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"><span>Download
                                         Script HTGL-Clone</span><i class="bi bi-hdd"></i></a>
-                                <p> Versi: 2025.1 Script</br></br>
+                                <p> Versi: 2026.1 Script</br></br>
                             </div>
                         </div>
                     </div>
@@ -169,56 +165,7 @@
                                     <i class="bi bi-info-circle"></i>
                                     <h4>Catatan Perubahan</h4>
                                 </div>
-                                <a style="color:#000000">V.RC14</br>
-                                    * Add Tools</br>
-                                    -- apt --</br>
-                                    whatweb </br>
-                                    dmitry </br>
-                                    thc-ipv6 </br>
-                                    dnsmap </br>
-                                    dnsrecon </br>
-                                    dnsrevenum6 </br>
-                                    dnstracer </br>
-                                    dnsenum </br>
-                                    httrack </br>
-                                    arping </br>
-                                    sipvicious </br>
-                                    knockpy </br>
-                                    python3-scapy </br>
-                                    sslsplit </br>
-                                    squid </br>
-                                    tor </br>
-                                    mbclient </br>
-                                    swaks </br>
-                                    onesixtyone </br>
-                                    sslh </br>
-                                    sipvicious </br>
-                                    p0f </br>
-                                    scapy </br>
-                                    wireshark </br>
-                                    wafw00fpy </br>
-                                    dirb </br>
-                                    aircrack-ng </br>
-                                    kismet</br>
-                                    nmap </br>
-                                    ike-scan</br>
-                                    -- native --</br>
-                                    cdpsnarf</br>
-                                    ikecrack</br>
-                                    lbd</br>
-                                    okadminfinder3</br>
-                                    sslstrip</br>
-                                    urlcrazy</br>
-                                    enum4linux</br>
-                                    intrace</br>
-                                    miranda</br>
-                                    pyfoca</br>
-                                    testssl-sh</br>
-                                    hexinject</br>
-                                    iwebaudit</br>
-                                    multimac</br>
-                                    snmpcheck</br>
-                                    tor-browser</br>
+                                <a style="color:#000000">V.RC18</br>
                                     * Update</br>
                                     bullseye InRelease' changed its 'Version' value from '11.5' to '11.6'</br>
                                     kernel linux-image-5.10.0-20-amd64</br>
@@ -274,81 +221,6 @@
                 </div><!-- End Feature Tabs -->
             </div>
         </section>
-        <!-- ======= Screenshot 
-
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-                  <div class="row feture-tabs" data-aos="fade-up">
-          <div class="col-lg-6">
-            <h3 style="color:#000000">Screenshot</h3>
-            </div></div>
-        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-        
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/isolinux.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Isolinux</h4>
-                <p>Screenshot</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/vesamenu.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Vesamenu</h4>
-                <p>Screenshot</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/systemd.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Booting</h4>
-                <p>Screenshot</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/tty.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Tty1</h4>
-                <p>Screenshot</p> 
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/desktop.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Desktop</h4>
-                <p>Screenshot</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="../assets/img/portfolio/open-menu.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Menu</h4>
-                <p>Screenshot</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- End Portfolio Section ======= -->
 
     </main>
     <!-- End #main -->
@@ -426,8 +298,8 @@
                         <h3><i class="ri-heart-2-line"></i> Dukungan</h3>
                         <p>
                             <i class="ri-map-pin-line"></i></i><span class="text"> Indonesia</span></br>
-                            <i class="ri-mail-line"></i></i><a href="mailto:hacktracklinux@yahoo.com">
-                                <span class="text"> hacktracklinux@yahoo.com</span></a>
+                            <i class="ri-mail-line"></i></i><a href="mailto:redlovereturn@yahoo.com">
+                                <span class="text"> redlovereturn@yahoo.com</span></a>
                         </p>
                     </div>
                 </div>
