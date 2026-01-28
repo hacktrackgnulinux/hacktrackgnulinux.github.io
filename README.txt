@@ -5,13 +5,13 @@ Note
 Website : 
 Next update
 - Add Documentation [Progress] <Lolic0d3>
-- Panduan Install <dindinG41TR3>
 - Tools [Progress] <Lolic0d3>
 - Setup Seo [Progress] <Lolic0d3>
 - Add Night Mode 
-- Add ID Language 
 - Mirror Repository
 
+- Panduan Membuat Bootable  [Done]
+- Add ID Language [Done]
 - About  [Done]
 - Contact  [Done]
 - Project  [Done]
