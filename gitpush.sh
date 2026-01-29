@@ -13,7 +13,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 package=hacktrackgnulinux.github.io
-version="Perbaikan Kutu dan Menambahkan Bahasa Indonesia"
+version="Perbaikan Halaman Community"
 figlet $package
 echo " Set Remote... "
 git remote set-url origin git@github.com:hacktrackgnulinux/$package.git
